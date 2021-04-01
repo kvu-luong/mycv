@@ -1,0 +1,98 @@
+html{
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:visited, a:hover{
+	text-decoration: none;
+}
+
+.container{
+	max-width: 69.373rem;
+	margin: 0 auto;
+
+	&--pall{
+		padding-top: 4.375rem;
+		padding-right: 1.5rem;
+		padding-bottom: 4.375rem;
+		padding-left: 1.5rem;
+
+		@include breakpoints-up(large){
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
+	}
+
+	&--py{
+		padding-top: 4.375rem;
+		padding-bottom: 4.375rem;
+
+		@include breakpoints-up(large){
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+		}
+	}
+
+	&--px{
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+
+	&--pt{
+		padding-top: 5.375rem;
+
+		@include breakpoints-up(large){
+			padding-top: 6rem;
+		}
+	}
+
+	&--pr{
+		padding-right: 1.5rem;
+	}
+
+	&--pb{
+		padding-bottom: 4.375rem;
+		@include breakpoints-up(large){
+			padding-bottom: 6rem;
+		}
+	}
+
+	&--pl{
+		padding-left: 1.5rem;
+	}
+}
+
+.flex{
+	display: flex;
+
+	&-jc-sb{
+		justify-content: space-between;
+	}
+	&-js-c{
+		justify-content: center;
+	}
+	&-ai-c{
+		align-items: center;
+	}
+}
+
+// visibility
+.hide-for-mobile{
+	@include breakpoints-down(medium){
+		display: none;
+	}
+}
+.hide-for-desktop{
+	@include breakpoints-up(large){
+		display: none;
+	}
+}
