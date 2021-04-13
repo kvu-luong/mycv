@@ -1,0 +1,97 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 69.373rem;
+  margin: 0 auto;
+}
+.container--pall {
+  padding-top: 4.375rem;
+  padding-right: 1.5rem;
+  padding-bottom: 4.375rem;
+  padding-left: 1.5rem;
+}
+@media (min-width: 64em) {
+  .container--pall {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.container--py {
+  padding-top: 4.375rem;
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container--py {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.container--px {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.container--pt {
+  padding-top: 5.375rem;
+}
+@media (min-width: 64em) {
+  .container--pt {
+    padding-top: 6rem;
+  }
+}
+.container--pr {
+  padding-right: 1.5rem;
+}
+.container--pb {
+  padding-bottom: 4.375rem;
+}
+@media (min-width: 64em) {
+  .container--pb {
+    padding-bottom: 6rem;
+  }
+}
+.container--pl {
+  padding-left: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-js-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}
+
+@media (max-width: 63.9375em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
