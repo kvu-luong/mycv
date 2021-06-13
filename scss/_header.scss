@@ -1,0 +1,39 @@
+.top-color{
+	height: 5px;
+	background-color: $blueColor;
+}
+.top-icons{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-left: 30px;
+	
+	ul{
+		display: flex;
+		gap: 1.875rem;
+		li{
+			list-style: none;
+			background-color: $blueColor;
+			border-radius: 5px;
+			padding: 5px 10px;
+		}
+		li:hover .btn-hide-text{
+			width: 200px;
+			display: inline;
+
+		}
+		a{
+			color: white;
+			font-size: 0.9375rem;
+		}
+		
+		
+	}
+}
+.btn-hide-text{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	@include transition(all 0.3s ease-in-out);
+}

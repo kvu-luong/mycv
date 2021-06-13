@@ -1,0 +1,64 @@
+.interval{
+	height: 100px;
+}
+
+.bg-icon{
+	background-color: $blueColor !important;
+}
+
+.layout-timeline{
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.timeline{
+	background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/timeline-bg.png) repeat-x center center fixed;
+
+	&__process{
+	    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-bar.png) repeat-y center;
+	    background-size: 400px 9px;
+	}
+	&__title {
+	    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-section-title3.png) no-repeat center center;
+	    background-size: 400px 500px;
+	}
+	&__point {
+		min-height: 80px;
+		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-point.png) center center;
+    	background-size: 400px 500px;
+	}
+	&__contain{
+		padding-right: 30px;
+		background-color: $bgOver;
+		h3{
+			font-size: 1.5625rem;
+		    margin-bottom: 20px;
+		    font-weight: bold;
+		    color: $titleColor;
+		}
+		h4{
+			color: black;
+			font-size: 1rem;
+			font-weight: bold;
+			border-bottom: 1px solid gray;
+		}
+		p{
+			font-size: 1rem;
+		}
+	}
+
+	&__icon{
+		display: flex;
+		gap: 30px;
+		padding-left: 0px;
+
+		li{
+			padding: 5px 15px;
+		    background-color: #1ad7c6;
+		    border-radius: 5px 10px;
+		}
+
+		a{
+			color: white;
+		}
+	}
+}

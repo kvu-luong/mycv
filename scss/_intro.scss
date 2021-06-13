@@ -1,0 +1,32 @@
+#intro{
+	.intro-avatar{
+		width: 210px;
+		height: 210px;
+		border: 5px solid $blueColor;
+		border-radius: 50%;
+		margin: 0 auto;
+
+		img{
+			height: 100%;
+			border-radius: 50%;
+			border: 5px solid white;
+		}
+	}
+
+	.intro-title{
+		font-size: $font-title;
+		border-bottom: 1px solid red;
+	}
+
+	.intro-job{
+		margin-top: 10px;
+	}
+
+	.intro-desc{
+		font-size: $font-normal;
+	}
+
+	h2{
+		font-size: $font-lg;
+	}
+}
