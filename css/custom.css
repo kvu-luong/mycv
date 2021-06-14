@@ -32,6 +32,8 @@ body {
   line-height: 1.3;
   background: url("https://images.unsplash.com/photo-1531310120610-deae3280a60b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80") center center no-repeat;
   background-size: cover;
+  max-height: 100vh;
+  background-attachment: fixed;
 }
 
 .container {
@@ -129,7 +131,7 @@ li {
 }
 
 .interval {
-  height: 100px;
+  height: 50px;
 }
 
 .bg-icon {
@@ -157,6 +159,18 @@ li {
   background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-point.png) center center;
   background-size: 400px 500px;
 }
+.timeline__education {
+  background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-education4.png) no-repeat center center;
+  background-size: 400px 500px;
+}
+.timeline__work {
+  background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-work3.png) no-repeat center center;
+  background-size: 400px 500px;
+}
+.timeline__mail {
+  background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-mail3.png) no-repeat center center;
+  background-size: 400px 500px;
+}
 .timeline__contain {
   padding-right: 30px;
   background-color: #fafafa;
@@ -173,6 +187,11 @@ li {
   font-weight: bold;
   border-bottom: 1px solid gray;
 }
+.timeline__contain h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
 .timeline__contain p {
   font-size: 1rem;
 }
@@ -188,6 +207,33 @@ li {
 }
 .timeline__icon a {
   color: white;
+}
+.timeline__top {
+  height: 200px;
+  background-color: #fafafa;
+}
+.timeline__end {
+  height: 200px;
+  background-color: #fafafa;
+  margin-top: -19px;
+}
+
+.mt-80 {
+  margin-top: 100px;
+}
+
+.footer {
+  text-align: center;
+  height: 100px;
+  background-color: #1ad7c6;
+  line-height: 3.5;
+  color: white;
+  font-size: 1.875rem;
+}
+
+.timeline-support {
+  height: 100px;
+  background-color: transparent;
 }
 
 /*# sourceMappingURL=custom.css.map */

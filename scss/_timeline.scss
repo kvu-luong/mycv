@@ -1,5 +1,5 @@
 .interval{
-	height: 100px;
+	height: 50px;
 }
 
 .bg-icon{
@@ -26,6 +26,18 @@
 		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-point.png) center center;
     	background-size: 400px 500px;
 	}
+	&__education {
+		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-education4.png) no-repeat center center;
+		background-size: 400px 500px;
+	}
+	&__work {
+		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-work3.png) no-repeat center center;
+		background-size: 400px 500px;
+	}
+	&__mail {
+		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-mail3.png) no-repeat center center;
+		background-size: 400px 500px;
+	}
 	&__contain{
 		padding-right: 30px;
 		background-color: $bgOver;
@@ -40,6 +52,11 @@
 			font-size: 1rem;
 			font-weight: bold;
 			border-bottom: 1px solid gray;
+		}
+		h5{
+			font-size: 1rem;
+	    font-weight: bold;
+	    margin-top: 15px;
 		}
 		p{
 			font-size: 1rem;
@@ -61,4 +78,16 @@
 			color: white;
 		}
 	}
+	&__top{
+		height: 200px;
+		background-color: $bgOver;
+	}
+	&__end{
+    height: 200px;
+    background-color: $bgOver;
+    margin-top: -19px;
+	}
+}
+.mt-80{
+	margin-top: 100px;
 }
