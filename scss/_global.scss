@@ -35,9 +35,11 @@ body{
 }
 
 .container{
-	width: $large;
+	max-width: $large;
 	margin: 0 auto;
 	background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/paper-bg2.png) no-repeat top left, url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/paper-bg-bot.png) no-repeat bottom right, #fafafa;
+	position: relative;
+	top: -2px;
 }
 
 .color-green{
@@ -60,4 +62,10 @@ body{
 
 li{
 	list-style: none;
+}
+.no-margin{
+	margin: 0 !important;
+}
+.pt-20{
+	padding-top: 20px !important;
 }
