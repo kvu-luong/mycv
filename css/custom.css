@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lusitana:400,700);
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -37,9 +38,11 @@ body {
 }
 
 .container {
-  width: 60rem;
+  max-width: 60rem;
   margin: 0 auto;
   background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/paper-bg2.png) no-repeat top left, url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/paper-bg-bot.png) no-repeat bottom right, #fafafa;
+  position: relative;
+  top: -2px;
 }
 
 .color-green {
@@ -62,6 +65,14 @@ body {
 
 li {
   list-style: none;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.pt-20 {
+  padding-top: 20px !important;
 }
 
 .top-color {
@@ -141,6 +152,7 @@ li {
 .layout-timeline {
   display: grid;
   grid-template-columns: 30% 70%;
+  margin-top: -2px;
 }
 
 .timeline {
@@ -174,6 +186,7 @@ li {
 .timeline__contain {
   padding-right: 30px;
   background-color: #fafafa;
+  margin-left: -2px;
 }
 .timeline__contain h3 {
   font-size: 1.5625rem;
@@ -186,6 +199,7 @@ li {
   font-size: 1rem;
   font-weight: bold;
   border-bottom: 1px solid gray;
+  font-family: Lusitana, serif;
 }
 .timeline__contain h5 {
   font-size: 1rem;
@@ -194,6 +208,7 @@ li {
 }
 .timeline__contain p {
   font-size: 1rem;
+  font-family: Lusitana, serif;
 }
 .timeline__icon {
   display: flex;
@@ -222,6 +237,69 @@ li {
   margin-top: 100px;
 }
 
+form .form-field {
+  position: relative;
+  margin: 26px 0;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 1px 0;
+  border-color: #1ad7c6;
+  font-family: Lusitana, serif;
+  font-size: 1.125rem;
+  line-height: 26px;
+  font-weight: 400;
+}
+form input:focus, form textarea:focus {
+  outline: none;
+}
+form input:focus + .label, form input.not-empty + .label, form textarea:focus + .label, form textarea.not-empty + .label {
+  transform: translateY(-24px);
+}
+form .label {
+  position: absolute;
+  bottom: 11px;
+  top: 0;
+  font-family: Lusitana, serif;
+  font-size: 1.125rem;
+  line-height: 25px;
+  font-weight: 400;
+  color: #888;
+  cursor: text;
+  transition: transform 0.2s ease-in-out;
+}
+form textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 36px;
+  max-height: 120px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+button {
+  border: none;
+  background-color: #1ad7c6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  transition: all 0.2s ease-in-out;
+  font-family: Lusitana, serif;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 10px;
+}
+button:hover {
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+
 .footer {
   text-align: center;
   height: 100px;
@@ -229,6 +307,7 @@ li {
   line-height: 3.5;
   color: white;
   font-size: 1.875rem;
+  font-family: Lusitana, serif;
 }
 
 .timeline-support {

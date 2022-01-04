@@ -1,535 +1,318 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Lương Khánh Vũ</title>
+  <meta charset="utf-8">
+  <meta name="description" content="MyCV">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main CV</title>
+  <link rel="author" href="humans.txt">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/custom.css"></link>
 </head>
-<body>
-
-  <div class="overlay">
-  </div>
-  <header id="header">
-    <div class="container">
-      <div class="header__top">
-        <div>
-          <h1>Lương Khánh Vũ</h1>
-          <h2>Web Developer</h2>
-        </div>
-        <div>
-          <a href="#" id="js-btnHamburger" class="header__toggle hide-for-desktop">
-            <span></span>
-            <span></span>
-            <span></span>
+<body class="mt-80">
+<div class="loader" style="display: none">
+  <div class="spiner"></div>
+  <div class="side-menu-name">Lương Khánh Vũ</div>
+  <div class="side-menu-job">Web Developer</div>
+</div>
+<header>
+  <div class="container">
+    <div class="top-color"></div>
+    <div class="top-icons">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fas fa-file-download"></i>
+            <span class="btn-hide-text">DOWNLOAD MY RESUME</span>
           </a>
-        </div>
-      </div>
-
-      <div class="header__below">
-        <a href="#about">About</a>
-        <a href="#resume">Resume</a>
-        <a href="#works">Works</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </div>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-envelope"></i>
+            <span  class="btn-hide-text">SEND ME EMAIL</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-blogger"></i>
+            <span  class="btn-hide-text">VIEW MY BLOG</span>
+          </a>
+        </li>
+      </ul>
     </div>
-
-  </header>
-
-  <section id="personal">
-    <div class="container">
-      <div class="personal__image">
-
+  </div>
+</header>
+<main>
+  <div class="container">
+    <section id="intro" class="layout mx">
+      <div class="intro-avatar">
+        <img src="http://3jon.com/demo/nwp/item/vertica/jessie/wp-content/uploads/2019/05/avatar-jessie2.jpg" alt="khanhvu"/>
       </div>
-      <div class="personal__infor">
-        <div class="personal__name">
-          <h2>Lương Khánh Vũ</h2>
+      <div class="intro-text ml-30">
+        <div class="intro-title">
+          <h1>Hi, I'm <span class="color-green"> Khánh Vũ </span></h1>
         </div>
-        <div class="personal__position">
+        <div class="intro-job">
           <h2>Web Developer</h2>
         </div>
-        <div class="social">
-          <a href="#">Github</a>
-          <a href="#">Youtube</a>
-          <a href="#">LinkedIn</a>
-        </div>
-      </div>
-      <div class="personal__action">
-          <div>DOWNLOAD CV</div>
-          <div>CONTACT ME</div>
-      </div>
-    </div>
-  </section>
-
-  <section id="about-card">
-    <div class="container">
-      <div class="about">
-        <div class="title">
-          <h3><span color="green">About</span> Me</h3>
-        </div>
-        <div class="about__desc">
+        <div class="intro-desc">
           <p>
-            I am Luong Khanh Vu, web developer from Vietnam. I have rich experience in web site develop and buiding and customization, also i am good at wordpress. I love to talk with you about our unquie.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla nec orci pretium consectetur. Duis iaculis finibus mattis. Pellentesque dapibus accumsan massa vel tincidunt. Donec tincidunt eros vel semper finibus. Fusce neque est, vulputate quis viverra a, dictum ac dolor. Donec eget laoreet enim, eu aliquet lorem. Ut gravida pulvinar erat.
           </p>
         </div>
-        <div class="about__detail">
-          <div class="about__item">
-            <div>Age</div>
-            <div>25</div>
-          </div>
-           <div class="about__item">
-            <div>Residence</div>
-            <div>VN</div>
-          </div>
-           <div class="about__item">
-            <div>Freelance</div>
-            <div>Available</div>
-          </div>
-           <div class="about__item">
-            <div>Address</div>
-            <div>HCM, VietNam</div>
-          </div>
-        </div>
       </div>
-
-      <div class="service">
-        <div class="title">
-          <h3><span color="green">My</span> Services</h3>
+    </section>
+    <div class="timeline bg-icon">
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="profile">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>PROFILE<h3>
+          </div>
         </div>
-        <div class="service__list">
-          <div class="service__item">
-            <div>
-              Image
-            </div>
-            <div>
-              <h4>Web Develop</h4>
-              <p>Modern and mobile-ready website that will help you reach all  of your marketing</p>
-            </div>
-          </div>
-
-          <div class="service__item">
-            <div>
-              Image
-            </div>
-            <div>
-              <h4>Wordpress</h4>
-              <p>Modern and mobile-ready website that will help you reach all  of your marketing</p>
-            </div>
-          </div>
-
-          <div class="service__item">
-            <div>
-              Image
-            </div>
-            <div>
-              <h4>Advetising</h4>
-              <p>Modern and mobile-ready website that will help you reach all  of your marketing</p>
-            </div>
-          </div>
-
-          <div class="service__item">
-            <div>
-              Image
-            </div>
-            <div>
-              <h4>Game Development</h4>
-              <p>Modern and mobile-ready website that will help you reach all  of your marketing</p>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>FULL NAME</h4>
+            <div class="timeline__detail">
+              <p>Luong Khanh Vu</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="price">
-        <div class="title">
-          <h3><span color="green">P</span> ricing</h3>
-        </div>
-        <div class="price__detail">
-          <div class="price__item">
-            <ul>
-              <li>Icon</li>
-              <li>Basic</li>
-              <li><span>$</span>22<span>hour</span></li>
-              <li>Web Development</li>
-              <li>Advetising</li>
-              <li>Game Development</li>
-              <li>Music Writing</li>
-              <li>Photography<span>new</span></li>
-            </ul>
-          </div>
-           <div class="price__item">
-            <ul>
-              <li>Icon</li>
-              <li>Basic</li>
-              <li><span>$</span>22<span>hour</span></li>
-              <li>Web Development</li>
-              <li>Advetising</li>
-              <li>Game Development</li>
-              <li>Music Writing</li>
-              <li>Photography<span>new</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="fun">
-        <div class="title">
-          <h3><span color="green">Fun</span> Fact</h3>
-        </div>
-        <div class="fun__list">
-          <div class="fun__item">
-            <div class="fun__icon">Icon</div>
-            <div class="fun_title">89 Albumes Listened</div>
-          </div>
-           <div class="fun__item">
-            <div class="fun__icon">Icon</div>
-            <div class="fun_title">89 Albumes Listened</div>
-          </div>
-           <div class="fun__item">
-            <div class="fun__icon">Icon</div>
-            <div class="fun_title">89 Albumes Listened</div>
-          </div>
-           <div class="fun__item">
-            <div class="fun__icon">Icon</div>
-            <div class="fun_title">89 Albumes Listened</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="client">
-        <div class="title">
-          <h3><span color="green">C</span>lients</h3>
-        </div>
-        <div class="client__list">
-          <div class="client__item">
-            Image 1
-          </div>
-          <div class="client__item">
-            Image 1
-          </div>
-          <div class="client__item">
-            Image 1
-          </div>
-        </div>
-      </div>
-
-      <div class="quote">
-        <div class="title">
-          <h3><span color="green">C</span>lients</h3>
-        </div>
-        <div class="quote__detail">
-          <quote>
-            Do all thing the best as you can!
-          </quote>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="resume-card">
-    <div class="container">
-      <div class="resume">
-        <div class="title">
-          <h3><span color="green">C</span>lients</h3>
-        </div>
-        <div class="resume__detail">
-          <div class="resume__item">
-            <div class="sub-title">
-              <h4>Experience</h4>
-            </div>
-            <div class="resume__content">
-              <div class="resume__time">
-                2013 - Present
-              </div>
-              <div class=resume__role>
-                Art Director
-              </div>
-              <div class="resume__position">
-                Facebook Inc.
-              </div>
-              <div class="resume__desc">
-                Collaborate with creative and development teams on the execution of ideas.
-              </div>
-            </div>
-            <div class="resume__content">
-              <div class="resume__time">
-                2018-2019
-              </div>
-              <div class=resume__role>
-                Art Director
-              </div>
-              <div class="resume__position">
-                Facebook Inc.
-              </div>
-              <div class="resume__desc">
-                Collaborate with creative and development teams on the execution of ideas.
-              </div>
-            </div>
-          </div>
-
-          <div class="resume__item">
-            <div class="sub-title">
-              <h4>Education</h4>
-            </div>
-            <div class="resume__content">
-              <div class="resume__time">
-                2013 - Present
-              </div>
-              <div class=resume__role>
-                Art Director
-              </div>
-              <div class="resume__position">
-                Facebook Inc.
-              </div>
-              <div class="resume__desc">
-                Collaborate with creative and development teams on the execution of ideas.
-              </div>
-            </div>
-            <div class="resume__content">
-              <div class="resume__time">
-                2018-2019
-              </div>
-              <div class=resume__role>
-                Art Director
-              </div>
-              <div class="resume__position">
-                Facebook Inc.
-              </div>
-              <div class="resume__desc">
-                Collaborate with creative and development teams on the execution of ideas.
-              </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>BORN</h4>
+            <div class="timeline__detail">
+              <p>25 Aug 1996 - Binh Dinh, Vietnam</p>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="skill">
-        <div class="title">
-          <h3><span color="green">My</span> skills</h3>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>EMAIL</h4>
+            <div class="timeline__detail">
+              <p>luongkhanhvu1392@gmail.com</p>
+            </div>
+          </div>
         </div>
-        <div class="skill__content">
-          <div class="skill__item">
-            <div class="sub-title">
-              <h4>Design</h4>
-            </div>
-            <div class="skill__list">
-              <ul>
-                <li>
-                  <div>Web Design</div>
-                  <div>Process</div>
-                </li>
-                <li>
-                  <div>Photoshop</div>
-                  <div>Process</div>
-                </li>
-              </ul>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>ADDRESS</h4>
+            <div class="timeline__detail">
+              <p>42/26A Ung Van Khiem Str. Ward 15, Binh Thanh Dict. HCM city</p>
             </div>
           </div>
-
-          <div class="skill__item">
-            <div class="sub-title">
-              <h4>Languages</h4>
-            </div>
-            <div class="skill__list">
-              <ul>
-                <li>
-                  <div>English</div>
-                  <div>Process</div>
-                </li>
-                <li>
-                  <div>China</div>
-                  <div>Process</div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="skill__item">
-            <div class="sub-title">
-              <h4>Coding</h4>
-            </div>
-            <div class="skill__list">
-              <ul>
-                <li>
-                  <div>Percent</div>
-                  <div>Wordpress</div>
-                </li>
-                <li>
-                  <div>Percent</div>
-                  <div>PHP/ MYSQL</div>
-                </li>
-                <li>
-                  <div>Percent</div>
-                  <div>Wordpress</div>
-                </li>
-                <li>
-                  <div>Percent</div>
-                  <div>PHP/ MYSQL</div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="skill__item">
-            <div class="sub-title">
-              <h4>Knowledge</h4>
-            </div>
-            <div class="skill__list">
-              <ul>
-                <li>
-                  <div>check</div>
-                  <div>Website hosting</div>
-                </li>
-                <li>
-                  <div>check</div>
-                  <div>DevOps</div>
-                </li>
-                <li>
-                  <div>check</div>
-                  <div>Website hosting</div>
-                </li>
-                <li>
-                  <div>check</div>
-                  <div>DevOps</div>
-                </li>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>FIND ME ON</h4>
+            <div class="timeline__detail">
+              <ul class="timeline__icon">
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="work">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>WORD EXPERIENCE<h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__work"></div>
+          <div class="timeline__contain">
+            <h4>NTT NETWORK</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-laptop-code"></i> Fullstack - <span>March 2019 - Current</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__work"></div>
+          <div class="timeline__contain">
+            <h4>DEVINITION</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-laptop-code"></i> Trainee - <span>Beginning of 2018 - Junuary 2019</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="portfolio">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>PORTFOLIO<h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>PROJECT</h4>
+            <div class="timeline__detail">
+              <h5>Restful API with Codeignter</h5>
+              <p>Using Codeigniter to build a restful api</p>
+              <h5>Sending mail </h5>
+              <p>Used to build feature sending email</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="education">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>EDUCATION<h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__education"></div>
+          <div class="timeline__contain">
+            <h4>COMPUTER SCIENCE</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-university"></i> International University HCM - <span>Graduation May 2018</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="skill">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>SKILLS<h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>CODING SKILLS</h4>
+            <div class="timeline__detail">
+              <ul>
+                <li>Javascript</li>
+                <li>Sass</li>
+                <li>Webpack</li>
+                <li>Vuejs</li>
+                <li>ReactJs</li>
+                <li>PHP (Wordpress, Codeigniter, Laravel)</li>
+                <li>Nodejs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>SYSTEM SKILLS</h4>
+            <div class="timeline__detail">
+              <ul>
+                <li>CI/CD</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="contact">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>CONTACT<h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__mail"></div>
+          <div class="timeline__contain">
+            <h4>SEND ME A MESSAGE</h4>
+            <div class="timeline__detail">
+              <form>
+                <div class="form-field">
+                  <input type="text" name="name" id="name" class="js-input" />
+                  <label class="label" for="name">Name</label>
+                </div>
+                <div class="form-field">
+                  <input type="email" name="email" id="email" class="js-input" />
+                  <label class="label" for="email">Email</label>
+                </div>
+                <div class="form-field">
+                  <input type="text" name="subject" id="subject" class="js-input" />
+                  <label class="label" for="subject">Subject</label>
+                </div>
+                <div class="form-field">
+                  <textarea name="message" id="message" class="js-input"></textarea>
+                  <label class="label" for="message">Message</label>
+                </div>
+                <div class="form-field align-center">
+                  <button type="submit">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="end">
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h3 class="no-margin pt-20">THANK YOU<h3>
+          </div>
+        </div>
+      </section>
+      <section class="timeline__end"></section>
     </div>
-  </section>
-
-  <section id="work-card">
-    <div class="container">
-      <div class="title">
-        <h3><span color="green">Recent</span> Works</h3>
-      </div>
-      <div class="work__content">
-        <div class="work__menu">
-          <ul>
-            <li>All</li>
-            <li>Image</li>
-            <li>Gallery</li>
-            <li>Content</li>
-          </ul>
-        </div>
-        <div class="work__show">
-          <div class="work__item">
-            <div>Image</div>
-            <div>Title</div>
-          </div>
-        </div>
-      </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer">
+      LEARN AND SHARE
     </div>
-  </section>
-
-  <section id="blog-card">
-    <div class="container">
-      <div class="title">
-        <h3><span color="green">B</span>log</h3>
-      </div>
-      <div class="blog__content">
-        <div class="blog__item">
-          <div>Image</div>
-          <div>april 28, 2020</div>
-          <div>By spite about do of allow</div>
-          <div>
-            <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, 
-              pri zril ubique ut. 
-              Te cule tation munere noluisse. Enim torquatos</p>
-          </div>
-        </div>
-        <div class="blog__item">
-          <div>Image</div>
-          <div>april 28, 2020</div>
-          <div>By spite about do of allow</div>
-          <div>
-            <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, 
-              pri zril ubique ut. 
-              Te cule tation munere noluisse. Enim torquatos</p>
-          </div>
-        </div>
-        <div class="blog__item">
-          <div>Image</div>
-          <div>april 28, 2020</div>
-          <div>By spite about do of allow</div>
-          <div>
-            <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, 
-              pri zril ubique ut. 
-              Te cule tation munere noluisse. Enim torquatos</p>
-          </div>
-        </div>
-        <div class="blog__item">
-          <div>Image</div>
-          <div>april 28, 2020</div>
-          <div>By spite about do of allow</div>
-          <div>
-            <p>Ex audire suavitate has, ei quodsi tacimates sapientem sed, 
-              pri zril ubique ut. 
-              Te cule tation munere noluisse. Enim torquatos</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <seciton id="contact-card">
-    <div class="container">
-      <div class="get-in">
-        <div class="title">
-          <h3><span color="green">Get</span> in Touch</h3>
-        </div>
-        <div class="get-in__map">
-          map
-        </div>
-        <div class="get-in__detail">
-          <div class="get-in__desc">
-            <ul>
-              <li>
-                <div>Address</div>
-                <div>Vietnam</div>
-              </li>
-              <li>
-                <div>Address</div>
-                <div>Vietnam</div>
-              </li>
-              <li>
-                <div>Address</div>
-                <div>Vietnam</div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="contact">
-        <div class="title">
-          <h3><span color="green">Contact</span> Form</h3>
-        </div>
-        <div class="contact__form">
-          <form>
-            <input type="text" name="inputName" placeholder="Full Name">
-            <input type="mail" name="inputMail" placeholder="Email Adress">
-            <textarea placeholder="Your Message">
-
-            </textarea>
-            <button type="submit">Send message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </seciton>
- 
-  <footer class="footer">
-    <div class="container">
-      <a href="https://bslthemes.com/ryan/demo/index-new-demo-1.html" alt="reference"
-      >Reference From Ryan</a>
-    </div>
-  </footer>
-  <script src="app/js/script.js"></script>
+  </div>
+  <div class="timeline-support"></div>
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="/js/nicescroll.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
