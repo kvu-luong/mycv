@@ -13,14 +13,14 @@
 	margin-top: -2px;
 }
 .timeline{
-	background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/timeline-bg.png) repeat-x center center fixed;
+	background: url(../img/timeline-bg.png) repeat-x center center fixed;
 
 	&__process{
 	    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-bar.png) repeat-y center;
 	    background-size: 400px 9px;
 	}
 	&__title {
-	    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-section-title3.png) no-repeat center center;
+	    background: url(../img/progress-section-title3.png) no-repeat center center;
 	    background-size: 400px 500px;
 	}
 	&__point {
@@ -29,15 +29,15 @@
     	background-size: 400px 500px;
 	}
 	&__education {
-		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-education4.png) no-repeat center center;
+		background: url(../img/progress-education4.png) no-repeat center center;
 		background-size: 400px 500px;
 	}
 	&__work {
-		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-work3.png) no-repeat center center;
+		background: url(../img/progress-work3.png) no-repeat center center;
 		background-size: 400px 500px;
 	}
 	&__mail {
-		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-mail3.png) no-repeat center center;
+		background: url(../img/progress-mail3.png) no-repeat center center;
 		background-size: 400px 500px;
 	}
 	&__contain{
@@ -152,7 +152,7 @@ button{
   border: none;
   background-color: #1ad7c6;
   color: white;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border-radius: 2px;
   font-size: 0.875rem;
   transition: all 0.2s ease-in-out;

@@ -1,19 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="MyCV">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Main CV</title>
-  <link rel="author" href="humans.txt">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="css/custom.css"></link>
+  <link rel="stylesheet" href="css/all.css"/>
+  <link rel="stylesheet" href="css/custom.css"/>
 </head>
 <body class="mt-80">
-<div class="loader" style="display: none">
-  <div class="spiner"></div>
-  <div class="side-menu-name">Lương Khánh Vũ</div>
-  <div class="side-menu-job">Web Developer</div>
+<div class="bg-loader">
+  <div class="loader">
+    <span>L</span>
+    <span>O</span>
+    <span>A</span>
+    <span>D</span>
+    <span>I</span>
+    <span>N</span>
+    <span>G</span>
+  </div>
 </div>
 <header>
   <div class="container">
@@ -46,7 +51,7 @@
   <div class="container">
     <section id="intro" class="layout mx">
       <div class="intro-avatar">
-        <img src="http://3jon.com/demo/nwp/item/vertica/jessie/wp-content/uploads/2019/05/avatar-jessie2.jpg" alt="khanhvu"/>
+        <img src="img/avatar-jessie2.jpg" alt="khanhvu"/>
       </div>
       <div class="intro-text ml-30">
         <div class="intro-title">
@@ -67,11 +72,130 @@
         <div class="timeline__process"></div>
         <div class="timeline__contain"></div>
       </section>
+      <section id="work">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>WORD EXPERIENCE</h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__work"></div>
+          <div class="timeline__contain">
+            <h4>NTT NETWORK</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-laptop-code"></i> Fullstack - <span>March 2019 - Current</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__work"></div>
+          <div class="timeline__contain">
+            <h4>DEVINITION</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-laptop-code"></i> Trainee - <span>Beginning of 2018 - Junuary 2019</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="portfolio">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>PORTFOLIO</h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>PROJECT</h4>
+            <div class="timeline__detail">
+              <h5>Restful API with Codeignter</h5>
+              <p>Using Codeigniter to build a restful api</p>
+              <h5>Sending mail </h5>
+              <p>Used to build feature sending email</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="education">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>EDUCATION</h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__education"></div>
+          <div class="timeline__contain">
+            <h4>COMPUTER SCIENCE</h4>
+            <div class="timeline__detail">
+              <h5><i class="fas fa-university"></i> International University HCM - <span>Graduation May 2018</span></h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
+      <section id="skill">
+        <div class="row layout-timeline">
+          <div class="timeline__title"></div>
+          <div class="timeline__contain">
+            <h3>SKILLS</h3>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>CODING SKILLS</h4>
+            <div class="timeline__detail">
+              <ul>
+                <li>Javascript</li>
+                <li>Sass</li>
+                <li>Webpack</li>
+                <li>Vuejs</li>
+                <li>ReactJs</li>
+                <li>PHP (Wordpress, Codeigniter, Laravel)</li>
+                <li>Nodejs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row layout-timeline">
+          <div class="timeline__point"></div>
+          <div class="timeline__contain">
+            <h4>SYSTEM SKILLS</h4>
+            <div class="timeline__detail">
+              <ul>
+                <li>CI/CD</li>
+                <li>Docker</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="interval layout-timeline">
+        <div class="timeline__process"></div>
+        <div class="timeline__contain"></div>
+      </section>
       <section id="profile">
         <div class="row layout-timeline">
           <div class="timeline__title"></div>
           <div class="timeline__contain">
-            <h3>PROFILE<h3>
+            <h3>PROFILE</h3>
           </div>
         </div>
         <div class="row layout-timeline">
@@ -128,130 +252,11 @@
         <div class="timeline__process"></div>
         <div class="timeline__contain"></div>
       </section>
-      <section id="work">
-        <div class="row layout-timeline">
-          <div class="timeline__title"></div>
-          <div class="timeline__contain">
-            <h3>WORD EXPERIENCE<h3>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__work"></div>
-          <div class="timeline__contain">
-            <h4>NTT NETWORK</h4>
-            <div class="timeline__detail">
-              <h5><i class="fas fa-laptop-code"></i> Fullstack - <span>March 2019 - Current</span></h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__work"></div>
-          <div class="timeline__contain">
-            <h4>DEVINITION</h4>
-            <div class="timeline__detail">
-              <h5><i class="fas fa-laptop-code"></i> Trainee - <span>Beginning of 2018 - Junuary 2019</span></h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="interval layout-timeline">
-        <div class="timeline__process"></div>
-        <div class="timeline__contain"></div>
-      </section>
-      <section id="portfolio">
-        <div class="row layout-timeline">
-          <div class="timeline__title"></div>
-          <div class="timeline__contain">
-            <h3>PORTFOLIO<h3>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__point"></div>
-          <div class="timeline__contain">
-            <h4>PROJECT</h4>
-            <div class="timeline__detail">
-              <h5>Restful API with Codeignter</h5>
-              <p>Using Codeigniter to build a restful api</p>
-              <h5>Sending mail </h5>
-              <p>Used to build feature sending email</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="interval layout-timeline">
-        <div class="timeline__process"></div>
-        <div class="timeline__contain"></div>
-      </section>
-      <section id="education">
-        <div class="row layout-timeline">
-          <div class="timeline__title"></div>
-          <div class="timeline__contain">
-            <h3>EDUCATION<h3>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__education"></div>
-          <div class="timeline__contain">
-            <h4>COMPUTER SCIENCE</h4>
-            <div class="timeline__detail">
-              <h5><i class="fas fa-university"></i> International University HCM - <span>Graduation May 2018</span></h5>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="interval layout-timeline">
-        <div class="timeline__process"></div>
-        <div class="timeline__contain"></div>
-      </section>
-      <section id="skill">
-        <div class="row layout-timeline">
-          <div class="timeline__title"></div>
-          <div class="timeline__contain">
-            <h3>SKILLS<h3>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__point"></div>
-          <div class="timeline__contain">
-            <h4>CODING SKILLS</h4>
-            <div class="timeline__detail">
-              <ul>
-                <li>Javascript</li>
-                <li>Sass</li>
-                <li>Webpack</li>
-                <li>Vuejs</li>
-                <li>ReactJs</li>
-                <li>PHP (Wordpress, Codeigniter, Laravel)</li>
-                <li>Nodejs</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row layout-timeline">
-          <div class="timeline__point"></div>
-          <div class="timeline__contain">
-            <h4>SYSTEM SKILLS</h4>
-            <div class="timeline__detail">
-              <ul>
-                <li>CI/CD</li>
-                <li>Docker</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="interval layout-timeline">
-        <div class="timeline__process"></div>
-        <div class="timeline__contain"></div>
-      </section>
       <section id="contact">
         <div class="row layout-timeline">
           <div class="timeline__title"></div>
           <div class="timeline__contain">
-            <h3>CONTACT<h3>
+            <h3>CONTACT</h3>
           </div>
         </div>
         <div class="row layout-timeline">
@@ -277,7 +282,7 @@
                   <label class="label" for="message">Message</label>
                 </div>
                 <div class="form-field align-center">
-                  <button type="submit">Send</button>
+                  <button type="submit"><i class="fas fa-paper-plane"></i></button>
                 </div>
               </form>
             </div>
@@ -292,7 +297,7 @@
         <div class="row layout-timeline">
           <div class="timeline__point"></div>
           <div class="timeline__contain">
-            <h3 class="no-margin pt-20">THANK YOU<h3>
+            <h3 class="no-margin pt-20">THANK YOU</h3>
           </div>
         </div>
       </section>
@@ -303,16 +308,13 @@
 <footer>
   <div class="container">
     <div class="footer">
-      LEARN AND SHARE
+      <a href="https://3jon.com/demo/nwp/item/vertica/jessie/">IDEA FROM VERTICA</a>
     </div>
   </div>
   <div class="timeline-support"></div>
 </footer>
 <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-<script src="/js/nicescroll.js"></script>
+  src="js/jquery-3.6.0.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
