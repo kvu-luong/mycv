@@ -44,18 +44,17 @@
 		padding-right: 30px;
 		background-color: $bgOver;
 		margin-left: -2px;
+					font-family: Lusitana, serif;
 		h3{
 			font-size: 1.5625rem;
-		    margin-bottom: 20px;
-		    font-weight: bold;
-		    color: $titleColor;
+	    font-weight: bold;
+	    color: $titleColor;
 		}
 		h4{
 			color: black;
 			font-size: 1rem;
 			font-weight: bold;
 			border-bottom: 1px solid gray;
-			font-family: Lusitana, serif;
 		}
 		h5{
 			font-size: 1rem;
@@ -64,7 +63,7 @@
 		}
 		p{
 			font-size: 1rem;
-			font-family: Lusitana, serif;
+			margin: 5px 0px;
 		}
 	}
 

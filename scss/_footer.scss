@@ -1,14 +1,15 @@
 .footer{
-	text-align: center;
-    height: 100px;
-    background-color: #1ad7c6;
-    line-height: 3.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #1ad7c6;
+  color: white;
+  font-family: Lusitana, serif;
+  a{
     color: white;
-    font-size: $font-title;
-    font-family: Lusitana, serif;
-    a{
-      color: white;
-    }
+    font-size: 15px;
+  }
 }
 .timeline-support{
 	height: 100px;

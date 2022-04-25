@@ -1,0 +1,22 @@
+.list-work {
+	li{
+		> div{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		> div:last-child{
+			display: flex;
+			align-items: center;
+		    flex-wrap: wrap;
+		    background-color: white;
+		    width: fit-content;
+		    gap: 5px;
+		    font-weight: bold;
+		}
+		span{
+			padding: 0px 5px;
+			color: white;
+		}
+	}
+}

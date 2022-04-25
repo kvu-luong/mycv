@@ -69,3 +69,32 @@ li{
 .pt-20{
 	padding-top: 20px !important;
 }
+.border--blue{
+	border-color: $blueColor !important;
+}
+
+.bg--blue{
+	background-color: $blueColor;	
+}
+
+.bg--green{
+	background-color: $greenColor;
+}
+
+.bg--lightGreen{
+	background-color: $lightGreen;
+}
+
+.bg--title{
+	background-color: $titleColor;
+}
+
+.bg--grey {
+	background-color: $grayishBlue;
+}
+
+.bg--black {
+	background-color: $lightBlack;
+}
+
+
