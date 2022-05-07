@@ -1,3 +1,6 @@
+## Live page
+
+- https://cv.v2vbro.com/mycv
 # Timeline css
 - timeline-background: fixed.
 - then css grid.

@@ -57,6 +57,11 @@ body {
   display: grid;
   grid-template-columns: 25% 75%;
 }
+@media (max-width: 47.9375rem) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}
 
 .mx {
   margin-right: 30px;
@@ -156,6 +161,7 @@ li {
   border: 5px solid #1ad7c6;
   border-radius: 50%;
   margin: 0 auto;
+  transition: 1s all ease;
 }
 #intro .intro-avatar img {
   height: 100%;
@@ -163,6 +169,18 @@ li {
   border: 5px solid white;
   object-fit: cover;
   width: 100%;
+}
+@media (max-width: 47.9375rem) {
+  #intro .intro-avatar {
+    display: none;
+    width: 100%;
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 47.9375rem) {
+  #intro .intro-text {
+    margin-left: 0px;
+  }
 }
 #intro .intro-title {
   font-size: 1.875rem;
@@ -195,13 +213,29 @@ li {
   grid-template-columns: 30% 70%;
   margin-top: -2px;
 }
+@media (max-width: 47.9375rem) {
+  .layout-timeline {
+    grid-template-columns: 1fr;
+  }
+}
 
 .timeline {
   background: url(../img/timeline-bg.png) repeat-x center center fixed;
 }
+@media (max-width: 47.9375rem) {
+  .timeline {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
 .timeline__process {
   background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-bar.png) repeat-y center;
   background-size: 400px 9px;
+}
+@media (max-width: 47.9375rem) {
+  .timeline__process {
+    display: none;
+  }
 }
 .timeline__title {
   background: url(../img/progress-section-title3.png) no-repeat center center;
@@ -211,6 +245,11 @@ li {
   min-height: 80px;
   background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-point.png) center center;
   background-size: 400px 500px;
+}
+@media (max-width: 47.9375rem) {
+  .timeline__point {
+    display: none;
+  }
 }
 .timeline__education {
   background: url(../img/progress-education4.png) no-repeat center center;
@@ -479,6 +518,10 @@ button:hover {
 .timeline-support {
   height: 100px;
   background-color: transparent;
+}
+
+.body {
+  background: "green" !important;
 }
 
 /*# sourceMappingURL=custom.css.map */

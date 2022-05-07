@@ -49,6 +49,10 @@ body{
 .layout{
 	display: grid;
     grid-template-columns: 25% 75%;
+
+    @include breakpoint-down('medium'){
+		grid-template-columns: 1fr;
+	}
 }
 
 .mx{

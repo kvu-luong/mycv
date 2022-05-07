@@ -11,22 +11,39 @@
 	display: grid;
 	grid-template-columns: 30% 70%;
 	margin-top: -2px;
+
+	@include breakpoint-down('medium'){
+		grid-template-columns: 1fr;
+	}
 }
 .timeline{
 	background: url(../img/timeline-bg.png) repeat-x center center fixed;
 
+	@include breakpoint-down('medium'){
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+
 	&__process{
-	    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-bar.png) repeat-y center;
-	    background-size: 400px 9px;
+    background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-bar.png) repeat-y center;
+    background-size: 400px 9px;
+
+    @include breakpoint-down('medium'){
+			display: none;
+		}
 	}
 	&__title {
-	    background: url(../img/progress-section-title3.png) no-repeat center center;
-	    background-size: 400px 500px;
+    background: url(../img/progress-section-title3.png) no-repeat center center;
+    background-size: 400px 500px;
 	}
 	&__point {
 		min-height: 80px;
 		background: url(https://3jon.com/demo/nwp/item/vertica/jessie/wp-content/themes/vertica/img/progress-point.png) center center;
     	background-size: 400px 500px;
+
+    @include breakpoint-down('medium'){
+			display: none;
+		}
 	}
 	&__education {
 		background: url(../img/progress-education4.png) no-repeat center center;
