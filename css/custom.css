@@ -330,6 +330,7 @@ form input, form textarea {
   font-size: 1.125rem;
   line-height: 26px;
   font-weight: 400;
+  resize: vertical;
 }
 form input:focus, form textarea:focus {
   outline: none;

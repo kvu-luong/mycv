@@ -129,6 +129,8 @@ form{
 		font-size: $font-md;
 		line-height: 26px;
 		font-weight: 400;
+		resize: vertical;
+
 		&:focus {
 			outline: none;
 		}
